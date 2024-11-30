@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Feedback Analysis for {{ professor }}</h2>
+    <h3>Summary:</h3>
+    <p>{{ summary }}</p>
+    <h3>Visualizations:</h3>
+    <img src="{{ url_for('static', filename='images/sentiment_pie.png') }}" alt="Sentiment Pie Chart">
+{% endblock %}

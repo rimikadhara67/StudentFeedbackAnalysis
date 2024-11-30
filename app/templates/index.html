@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <form action="{{ url_for('main.results') }}" method="POST">
+        <label for="professor">Select a Professor:</label>
+        <select name="professor" id="professor">
+            {% for professor in professors %}
+                <option value="{{ professor }}">{{ professor }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Analyze</button>
+    </form>
+{% endblock %}
