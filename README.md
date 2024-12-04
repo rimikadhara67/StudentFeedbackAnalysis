@@ -1,6 +1,9 @@
 # **Student Feedback Analysis Web Application**
 
 ## **Overview**
+
+View our project here: https://www.rimikadhara.com/StudentFeedbackAnalysis/
+
 This project is a github repo for our web application designed to visualize and present professor feedback and sentiment analysis for the University of Minnesota’s Computer Science department. The app displays pre-generated insights and visualizations for selected professors, offering a static, user-friendly interface.
 
 ---
