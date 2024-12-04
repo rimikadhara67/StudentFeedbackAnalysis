@@ -31,7 +31,7 @@
                         const formattedInsights = formatInsights(data);
                         document.getElementById("insights").innerHTML = formattedInsights;
                     })
-                    .catch((error) => {
+                    .catch(() => {
                         document.getElementById("insights").innerHTML =
                             "<p>Insights not available for this professor.</p>";
                     });
@@ -52,38 +52,33 @@
                     "No professor selected. Please return to the main page.";
             }
         });
+
         function formatInsights(rawText) {
             // Replace headings (##) with <h3>
-            rawText = rawText.replace(/## (.+)/g, "<h3>$1</h3>");
-
+            rawText = rawText.replace(/## (.+)/g, "<h2>$1</h2>");
             // Replace bold sections (**text**) with <strong>
             rawText = rawText.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
-
             // Replace lists (*) with <ul><li>
             rawText = rawText.replace(/^\* (.+)/gm, "<ul><li>$1</li></ul>");
-
             // Replace numbered lists (1., 2., etc.) with <ol><li>
             rawText = rawText.replace(/^\d+\.\s(.+)/gm, "<ol><li>$1</li></ol>");
-
             // Ensure nested lists are well-formed
             rawText = rawText.replace(/<\/ul>\s<ul>/g, ""); // Remove unnecessary <ul></ul> tags
             rawText = rawText.replace(/<\/ol>\s<ol>/g, ""); // Remove unnecessary <ol></ol> tags
 
             return rawText;
         }
-
     </script>
 </head>
 <body>
     <header>
-        <h1>Insights for Professor <span id="professor-name"></span></h1>
+        <h1>Insights based on Student Feedback for Professor <span id="professor-name"></span></h1>
     </header>
     <main>
-        <h2>Insights</h2>
-        <div id="insights">Loading insights...</div>
-
-        <h2>Visualizations</h2>
-        <div id="visualizations"></div>
+        <div id="content-container">
+            <div id="insights">Loading insights...</div>
+            <div id="visualizations"><h2>Key Word, Sentiment, and Emotion Analysis</h2></div>
+        </div>
     </main>
     <footer>
         <p>CSCI 5541: Natural Language Processing (Fall 2025)</p>
