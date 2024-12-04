@@ -1,7 +1,7 @@
 # **Student Feedback Analysis Web Application**
 
 ## **Overview**
-This project is a Flask-based web application designed to visualize and present professor feedback and sentiment analysis for the University of Minnesota’s Computer Science department. The app displays pre-generated insights and visualizations for selected professors, offering a static, user-friendly interface.
+This project is a github repo for our web application designed to visualize and present professor feedback and sentiment analysis for the University of Minnesota’s Computer Science department. The app displays pre-generated insights and visualizations for selected professors, offering a static, user-friendly interface.
 
 ---
 
@@ -21,22 +21,21 @@ This project is a Flask-based web application designed to visualize and present 
 
 ---
 
-## **File Structure**
-```plaintext
-StudentFeedbackAnalysis-App/
-├── app/
-│   ├── __init__.py               # Flask app initialization
-│   ├── routes.py                 # Application routes and logic
-│   ├── static/
-│   │   ├── css/
-│   │   │   └── styles.css        # Styling for the web app
-│   │   ├── data/                 # Static data folder
-│   │   │   ├── Insights/         # Text insights for professors
-│   │   │   ├── Key Word Analysis/ # Keyword analysis visualizations
-│   │   │   └── Visualizations/   # Sentiment and emotion analysis charts
-│   ├── templates/
-│   │   ├── index.html            # Home page for professor selection
-│   │   └── result.html           # Professor insights and visualization display
-├── README.md                     # Project documentation
-├── requirements.txt              # Python dependencies
-├── run.py                        # Main entry point to run the app
+## **Usage Instructions**
+
+1. Open the web app in your browser by navigating to `this link` after running the Flask application.
+2. Select a professor from the dropdown menu on the home page.
+3. View the insights and visualizations for the selected professor:
+   - **Textual Insights**:
+     - A detailed summary of the professor’s strengths and areas for improvement based on student feedback.
+   - **Keyword Analysis Visualizations**:
+     - Pie charts, word clouds, and tag occurrences that highlight recurring themes and student sentiment.
+   - **Sentiment and Emotion Charts**:
+     - Bar charts and pie charts showcasing sentiment scores and emotion distribution in student feedback.
+
+---
+
+## **Future Enhancements**
+
+- **Dynamic Data Updates**:
+  - Enable real-time processing and analysis of student feedback as it is received.
