@@ -158,6 +158,9 @@ button:hover {
     #content-container {
         flex-direction: column; /* Stack insights and visualizations vertically */
     }
+    form.professor-form {
+        width: 70%; /* Ensure it doesn't fall off the screen */
+    }
     #insights {
         max-width: 100%; /* Full width on small screens */
     }
