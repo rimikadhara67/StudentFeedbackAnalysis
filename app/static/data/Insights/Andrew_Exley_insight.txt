@@ -1,0 +1,30 @@
+## Actionable Insights for Professor Andrew Exley based on 12 Student Ratings
+
+**Caveat:** The low number of ratings (12) limits the reliability and generalizability of these insights. These should be treated as preliminary observations and further data collection is strongly recommended.
+
+**Strengths:**
+
+* **Engaging and Enthusiastic:** Students describe Exley as a "great guy," "funny," and someone who "clearly knows what he is talking about and enjoys discussing" the subject matter.  His lectures are considered engaging, even keeping students who normally sleep through class awake. This suggests strong presentation skills and genuine enthusiasm for the subject, which contributes positively to the learning environment.
+* **Organized and Clear:**  Students appreciate the organized structure of the course and the clarity of lecture materials and homework assignments.  This clarity reduces student confusion and allows them to focus on learning the concepts.
+* **Supportive and Approachable:** Exley's availability over Slack and his willingness to help students problem-solve are highly valued. This suggests a strong commitment to student success and creates a positive learning environment.
+* **Effective Use of Practical Examples:** Students mention Exley's code examples as helpful for understanding.  Specifically, in NLP, assignments are praised for their real-world application, which helps solidify learning.
+* **Balanced Teaching Approach:** While some students wanted more examples, others appreciate the mix of notes, code examples, and explanations.  This suggests a need for continued balance and potentially tailoring examples based on student feedback within specific courses.
+
+
+**Areas for Improvement:**
+
+* **Workload Management:**  Significant concerns were raised about the heavy workload, particularly for the AI course project requiring 50 hours of work alongside other assignments and exams. Students explicitly stated this workload was "ridiculous" and "unreasonably difficult" given it's a 4-credit class. Adjusting the workload to a more manageable level is crucial.
+* **Exam Timing and Preparation:**  The timing of exams, particularly after Thanksgiving break, drew negative feedback. Additionally, the lack of sample exams makes preparation challenging, contributing to student anxiety and potentially impacting performance.  Providing sample exams or practice questions and reconsidering exam scheduling would be beneficial.
+* **Lecture Recording:** The absence of recorded lectures creates difficulties for students who miss class or want to review material.  Offering recorded lectures would improve accessibility and provide valuable learning support.
+* **Consistency in Lecture Content and Exam Coverage:**  Some students felt a disconnect between lecture content and exam material, finding themselves "lost" despite attending lectures.  Ensuring better alignment between what's taught and what's assessed would enhance learning outcomes and reduce student frustration.
+* **Lab Structure:** Students mention challenges with completing labs within the allotted time and limited TA support.  Reviewing the lab structure, potentially extending time or increasing TA availability, could improve the lab experience.
+
+
+**Recommendations:**
+
+* **Survey Students:** Conduct regular and anonymous surveys to gather more detailed feedback on specific courses and teaching methods.
+* **Address Workload Concerns:**  Carefully evaluate and potentially reduce the workload for AI and other courses, especially considering student feedback regarding the 50-hour project.
+* **Provide Exam Resources:** Offer sample exams or practice questions to help students prepare and reduce anxiety.  Review exam scheduling to avoid conflicts with breaks.
+* **Record Lectures:**  Implement lecture recording to enhance accessibility and support different learning styles.
+* **Review Lab Structure:** Evaluate lab time, TA support, and the difficulty of lab assignments to ensure a positive and productive learning environment.
+* **Monitor Feedback and Adjust Accordingly:** Continuously monitor student feedback and be responsive to concerns.  Be flexible and willing to adjust teaching methods based on the evolving needs of the students. 

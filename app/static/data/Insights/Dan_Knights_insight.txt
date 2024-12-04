@@ -1,0 +1,28 @@
+## Actionable Insights for Professor Dan Knights based on Student Feedback (20 ratings)
+
+**Note:** The relatively low number of ratings (20) means these insights should be considered preliminary and may not fully represent the overall student experience. Further data collection would strengthen the analysis.
+
+**Strengths:**
+
+* **Engaging and Clear Teaching Style:** Students consistently praise Professor Knights' engaging lectures, clear explanations, and organized presentation of complex material.  He is perceived as making difficult topics easier to understand than textbooks and adjusting his pace to accommodate student learning.
+* **Supportive Learning Environment:** Students appreciate Professor Knights' genuine care for their learning and success. His willingness to help, answer questions, and provide feedback contributes to a positive learning environment.  He is perceived as approachable and willing to work with students at their level.
+* **Interesting and Relevant Content:** The projects are seen as interesting and relevant to real-world applications, which enhances student motivation.  Students found the computational focus of MICE5035 appropriate even with limited biology backgrounds.
+* **Fair Grading and Reasonable Workload:** The grading scheme is considered fair, and the workload manageable.  Students felt they didn't need to excessively cram for exams, and the assignments, while potentially challenging, were rewarding.
+* **Positive Personality:** Students appreciate Professor Knights' personality, describing him as "cool," "humble," "awesome," and even "hot." This positive rapport can significantly contribute to a positive learning experience.
+
+**Areas for Potential Improvement:**
+
+* **Clarity during lectures in CSCI2011:** While generally praised for clarity, some students mentioned difficulty understanding lectures in CSCI2011 until after reading the textbook. This suggests a potential need to reinforce key concepts or provide additional examples during lectures for this specific course.
+* **Retake Exam Difficulty:** Some students expressed concern about retake exams being more difficult than originals, causing confusion and negatively impacting grades. This warrants investigation to ensure retake exams are appropriately aligned with the original material and difficulty level.
+* **TA Support:**  Negative comments about TA support raise concerns.  While Professor Knights' direct support is valued, ensuring TA effectiveness is crucial for a consistent learning experience.  This could involve improved TA training, clearer communication between professor and TAs, or more direct professor oversight of grading.
+* **Virtual Learning Accommodation (Specific to a period):** One comment suggests a lack of accommodation during a virtual learning period. Since this is tied to a specific circumstance, it may be less relevant now, but it highlights the importance of adaptability and responsiveness to different learning environments.
+* **Advanced Preparation for Non-CS Majors:** While the computational focus of MICE5035 was generally well-received, students without biology backgrounds sometimes found the content challenging.  Providing introductory resources or additional support for non-CS majors could enhance their learning experience.
+
+
+**Actionable Steps:**
+
+* **Solicit more feedback:**  The small sample size necessitates collecting more feedback to validate these insights and identify additional areas for improvement.  Regularly surveying students throughout the semester can provide valuable data.
+* **Review retake exam design:**  Examine the retake exams for CSCI2011 to ensure alignment with the original exam in terms of content and difficulty.
+* **Evaluate and improve TA training and support:** Implement measures to enhance TA effectiveness, including training on grading consistency, communication skills, and subject matter expertise.
+* **Monitor student understanding during CSCI2011 lectures:** Consider incorporating more in-class exercises, checks for understanding, or real-time feedback mechanisms to address the issue of clarity before students resort to relying solely on the textbook.
+* **Develop supplementary resources for Non-CS Majors:** Create introductory materials or offer additional support sessions for non-CS majors in MICE5035 to bridge any knowledge gaps and ensure a smoother learning experience. 

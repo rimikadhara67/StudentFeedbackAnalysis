@@ -1,0 +1,28 @@
+## Actionable Insights for Professor Elizabeth Jensen (12 Ratings)
+
+**Caveat:** The low number of ratings (12) limits the reliability and generalizability of these insights.  These should be considered preliminary observations and further data collection is recommended.
+
+**Key Concerns:**
+
+* **Lecture Delivery and Content Relevance:**  Students consistently report lectures as "dry," "useless," and "monotonous," indicating a need to move beyond simply reciting slide content. Concerns about exam material not being adequately covered in lectures and in-class exercises not aligning with midterm content point to a disconnect between instruction and assessment.  The high variability in project averages (90% to 65%) may also suggest inconsistent preparation through lectures.
+* **Assessment Difficulty and Clarity:**  Midterm averages around 60% and reported exam averages as low as 40% coupled with comments about exam difficulty and length suggest potential issues with exam design, time constraints, and alignment with course content.  Lack of clear expectations and guidelines for written assignments, particularly the final project, also contributes to student frustration.  Hidden rubrics further exacerbate this issue.
+* **Communication and Tone:** While some students describe the professor and TAs as "nice" when helping, others report a "slightly condescending tone" when answering questions. This inconsistency warrants attention to ensure a consistently supportive learning environment.
+* **Workload and Time Management:** Students mention significant time investment in projects, often with deadlines close to exams, creating pressure and potentially impacting performance.  The lengthy final project (16 pages for groups of 3) appearing late in the semester also raises workload management concerns.
+
+
+**Actionable Recommendations:**
+
+* **Revitalize Lectures:**  Move beyond slide-based delivery. Incorporate active learning strategies (e.g., think-pair-share, small group problem-solving, in-class coding exercises directly relevant to assessments), real-world examples, and opportunities for student-led discussions.
+* **Align Instruction and Assessment:** Ensure that lecture content, in-class activities, and homework directly prepare students for exam and project content. Review past exams and projects to identify areas of misalignment and adjust instruction accordingly.
+* **Review Assessment Design:**  Examine midterm and exam length, format, and difficulty. Consider offering practice exams or sample questions to help students prepare.  Ensure clear, readily available rubrics for all assignments, including the final project.  Investigate discrepancies in grading standards for exams taken under extenuating circumstances.
+* **Improve Communication and Feedback:** Be mindful of tone when answering questions. Encourage questions and create a safe space for students to seek clarification. Provide timely and constructive feedback on assignments, referencing rubrics explicitly.
+* **Manage Workload and Pacing:**  Re-evaluate project deadlines and workload distribution throughout the semester. Consider staggering project deadlines to avoid clustering around exams. Provide clear guidelines and support for the final project earlier in the semester.
+
+**Further Data Collection:**
+
+* **Student Surveys:**  Implement mid-semester and end-of-semester surveys to gather more structured feedback on specific aspects of the course.
+* **Focus Groups:** Conduct small group discussions with students to delve deeper into their experiences and gather more nuanced perspectives.
+* **Peer Observation:** Invite a trusted colleague to observe a lecture and provide feedback on teaching practices.
+
+
+By addressing these actionable insights and continuing to gather student feedback, Professor Jensen can create a more engaging, effective, and supportive learning experience.  It's crucial to remember that these insights are based on a small sample size, and ongoing evaluation is essential for continuous improvement.

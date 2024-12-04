@@ -1,0 +1,35 @@
+## Actionable Insights for Professor Kevin Wendt (59 Ratings)
+
+**Note:** The relatively low number of ratings (59) suggests these insights should be interpreted with caution and further corroborated if possible.  They represent trends but may not fully capture the student experience.
+
+**Strengths:**
+
+* **Industry Experience:** Students appreciate Wendt's real-world examples and perspective, finding it a unique and valuable contribution.
+* **Passionate & Caring:** He is perceived as genuinely invested in the subject matter and student learning.
+* **Good Communication & Expressiveness:**  Some students highlight his ability to communicate complex ideas clearly and engagingly.
+* **Open to Feedback:**  Wendt seems receptive to student feedback, which is crucial for iterative improvement.
+
+
+**Areas for Improvement:**
+
+* **Course Organization and Clarity:**  This is a major recurring theme. Students find the course structure confusing, assignment instructions unclear, and the scheduling messy.  This includes unclear expectations for assignments, late feedback, and poorly worded homework problems.
+* **Assignment Difficulty and Workload:**  Concerns are raised about the heavy workload, particularly for an introductory course, and the perceived difficulty of assignments and exams, especially given the lack of clear instruction and foundational teaching.  The excessive writing requirements (100+ pages) also draw criticism.
+* **Lecture Style and Content:** While some appreciate his communication, others find his lectures dry, uninformative, and lacking essential foundational concepts. Students feel he assumes prior knowledge (e.g., CS 4041) that not everyone possesses. The slides are also considered unhelpful and sparse.
+* **Assessment and Feedback:**  Late and incomplete feedback on assignments, especially concerning given the iterative nature of the projects, is a major issue. The grading process for assignments also needs transparency; students want to understand why points are deducted. The lack of timely grade reporting also causes frustration.
+* **Group Project Management:**  While group work is valued, the heavy reliance on it (50% of grade) combined with the lack of guidance and clear expectations creates difficulties.
+* **TA Performance:**  Irresponsible TA behavior, including providing feedback without explaining errors, is a concern that needs addressing.
+* **Communication Responsiveness:**  The complaint about unanswered emails and questions needs attention.  This can significantly impact student learning and engagement.
+
+
+**Actionable Steps:**
+
+1. **Improve Course Structure and Communication:** Develop a detailed course schedule with clear deadlines and expectations for all assignments. Provide clear, concise, and unambiguous instructions for each assignment, including explicit grading rubrics.
+2. **Re-evaluate Assignment Difficulty and Workload:** Consider adjusting the workload and difficulty, particularly for introductory-level students. Explore alternatives to extensive writing assignments or provide more support and guidance for them.
+3. **Enhance Lecture Content and Delivery:** Focus on teaching fundamental concepts before moving to advanced topics.  Develop more comprehensive slides and incorporate interactive elements to improve engagement.  Reduce reliance on assumed prior knowledge.
+4. **Prioritize Timely and Constructive Feedback:** Implement strategies for providing prompt and detailed feedback on all assignments, explicitly addressing areas for improvement. Ensure TAs are trained to provide effective feedback and follow a standardized process.
+5. **Refine Group Project Management:** Provide more structure and guidance for group projects, including guidelines for teamwork, communication, and conflict resolution. Consider reducing the weighting of group projects or offering alternative assessment options.
+6. **Improve Communication Responsiveness:**  Establish clear communication channels and expectations for response times. Ensure all student inquiries are addressed promptly and thoroughly.
+7. **Solicit and Act on Student Feedback:** Regularly collect student feedback (e.g., mid-semester evaluations) and use it to make adjustments to the course throughout the semester.
+
+
+By addressing these areas, Professor Wendt can leverage his strengths and create a more positive and effective learning experience for his students.

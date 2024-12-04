@@ -1,34 +1,70 @@
-from flask import Blueprint, render_template, request
-from app.analysis import analyze_professor_feedback
-import pandas as pd
+from flask import render_template, request, url_for
+import os
+from markdown import markdown
+from app import app
 
-# Blueprint for routing
-main = Blueprint("main", __name__)
+# Use app.root_path to construct absolute paths
+DATA_PATH = os.path.join(app.root_path, "static", "data")
+INSIGHTS_PATH = os.path.join(DATA_PATH, "Insights")
+KEYWORD_ANALYSIS_PATH = os.path.join(DATA_PATH, "Key Word Analysis")
+VISUALIZATIONS_PATH = os.path.join(DATA_PATH, "Visualizations")
 
-# Load the data once
-data = pd.read_csv("data/UMN_CS_Professors_Ratings.csv")
 
-@main.route("/")
+@app.route("/")
 def index():
-    # Extract professor names for the dropdown
-    professor_names = sorted(data["Name"].unique())
-    return render_template("index.html", professors=professor_names)
+    # Get list of professors from the Insights folder
+    try:
+        professors = [
+            file.replace("_insight.txt", "").replace("_", " ")
+            for file in os.listdir(INSIGHTS_PATH)
+            if file.endswith("_insight.txt")
+        ]
+    except FileNotFoundError:
+        return "Insights directory not found. Please check your file structure.", 500
 
-@main.route("/results", methods=["POST"])
-def results():
-    selected_professor = request.form.get("professor")
-    if not selected_professor:
-        return "Error: No professor selected", 400
+    return render_template("index.html", professors=professors)
 
-    # Filter data for the selected professor
-    professor_data = data[data["Name"] == selected_professor]
 
-    # Perform analysis
-    analysis_results = analyze_professor_feedback(professor_data)
+@app.route("/professor")
+def professor():
+    professor_name = request.args.get("professor_name")
+    if not professor_name:
+        return "Professor not selected", 400
+
+    safe_professor_name = professor_name.replace(" ", "_")
+
+    # Define file paths for existence checks
+    visualizations_files = {
+        "keyword_pie_chart": os.path.join(KEYWORD_ANALYSIS_PATH, f"{professor_name}_pie_chart.png"),
+        "tag_occurrences": os.path.join(KEYWORD_ANALYSIS_PATH, f"{professor_name}_tag_occurrences.png"),
+        "wordcloud": os.path.join(KEYWORD_ANALYSIS_PATH, f"{professor_name}_wordcloud.png"),
+        "sentiment_chart": os.path.join(VISUALIZATIONS_PATH, f"{professor_name}_Sentiment_BarChart.png"),
+        "emotion_pie_chart": os.path.join(VISUALIZATIONS_PATH, f"{professor_name}_Emotion_PieChart.png"),
+    }
+
+    # Generate URLs for existing files
+    visualizations_urls = {
+        key: url_for("static", filename=f"data/{os.path.relpath(path, start=os.path.join(app.root_path, 'static', 'data'))}")
+        for key, path in visualizations_files.items() if os.path.exists(path)
+    }
+
+    # Read insights file
+    insights_file = os.path.join(INSIGHTS_PATH, f"{safe_professor_name}_insight.txt")
+    insights = None
+    if os.path.exists(insights_file):
+        with open(insights_file, "r", encoding="utf-8") as file:
+            raw_insights = file.read()
+            insights = markdown(raw_insights)
+
+    # Check if no data exists
+    if not insights and not visualizations_urls:
+        return render_template(
+            "result.html", professor_name=professor_name, no_data=True
+        )
 
     return render_template(
         "result.html",
-        professor=selected_professor,
-        summary=analysis_results["summary"],
-        visuals=analysis_results["visuals"]
+        professor_name=professor_name,
+        insights=insights,
+        visualizations=visualizations_urls,
     )

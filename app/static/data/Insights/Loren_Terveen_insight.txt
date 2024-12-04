@@ -1,0 +1,29 @@
+## Actionable Insights for Professor Loren Terveen (26 Ratings)
+
+**Note:** The relatively low number of ratings (26) means these insights should be considered preliminary and may not fully represent student opinion. Further data collection is recommended to confirm these trends.
+
+**Strengths:**
+
+* **Engaging and Interesting Content:** Students frequently praised the interesting nature of the course material, particularly related to social and collaborative computing and user interface design.  Professor Terveen's questions and discussion points were also highlighted as positive aspects.
+* **Passionate and Approachable:**  Students described Professor Terveen as passionate, friendly, approachable, and willing to help.  They appreciated his dedication to the subject and his efforts to instill similar enthusiasm in students.
+* **Organized and Clear:**  Professor Terveen was commended for his organization and clarity, even planning the course schedule well in advance.
+* **Attentive and Supportive:**  Students noted the professor's attentiveness, substantial feedback, and careful selection of TAs who had previously taken the course.
+
+**Areas for Improvement:**
+
+* **Quizzes:**  Significant negative feedback focused on the quizzes, described as too long, wordy, and unrelated to the in-class material or coding assignments. Students felt the quizzes tested rote memorization from online videos rather than applying concepts learned in class.  This disconnect between quizzes and other course components requires attention.
+* **Balance between Conceptual and Practical Application:** While the course covered interesting concepts, some students felt there was a disconnect between the conceptual material taught in class and the practical application required for assignments, particularly regarding coding. This suggests a need to bridge the gap between theory and practice, potentially by incorporating more coding examples and exercises into lectures.
+* **Group Project Management:**  While some students appreciated the group project focus, others found it very time-consuming and reliant on having a good group.  Providing more support and structure for group work, including clearer guidelines and perhaps group formation assistance, could improve this experience.
+* **Workload and Difficulty for Beginners:**  Despite being an introductory course, some students with no prior coding experience found it extremely challenging.  While collaboration was encouraged, the difficulty for beginners might warrant revisiting the prerequisites or providing additional support resources for those new to coding.
+* **Lecture Effectiveness (Conflicting Feedback):**  While some students found lectures engaging, others criticized them as being a waste of time, with the professor allegedly asking students to teach instead of lecturing himself. This conflicting feedback requires further investigation to understand the underlying issues and determine whether the lecture format consistently meets student needs.
+
+
+**Actionable Recommendations:**
+
+1. **Revise Quizzes:** Shorten quizzes, focus on key concepts discussed in class rather than online video details, and ensure alignment with assignments. Consider different quiz formats to assess understanding rather than rote memorization.
+2. **Strengthen Connection Between Theory and Practice:**  Incorporate more coding examples and practical exercises in lectures to connect conceptual learning with the practical application required for assignments.
+3. **Improve Group Project Support:**  Provide clearer guidelines, group formation assistance, and regular check-ins to ensure effective collaboration and manage workload.
+4. **Address Beginner Challenges:** Consider offering additional support resources for students with no prior coding experience, such as supplementary tutorials or office hours specifically focused on basic coding skills.
+5. **Investigate Lecture Effectiveness:** Gather more feedback on lecture format and content to understand the conflicting opinions. Explore alternative teaching methods or adjust the existing approach based on student needs and preferences.
+
+By addressing these areas, Professor Terveen can build upon existing strengths and further enhance the learning experience for all students.  Regularly soliciting student feedback throughout the semester can also facilitate continuous improvement.

@@ -1,9 +1,49 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights for {{ professor_name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>University of Minnesota - Computer Science Professor Insights</h1>
+    </header>
+    <main>
+        <h2>Insights for Professor {{ professor_name }}</h2>
+        {% if no_data %}
+        <p>Sorry, we haven't analyzed this professor yet.</p>
+        {% else %}
+        <div class="insights-box">
+            <div class="insights-content">
+                {{ insights | safe }}
+            </div>
+        </div>
 
-{% block content %}
-    <h2>Feedback Analysis for {{ professor }}</h2>
-    <h3>Summary:</h3>
-    <p>{{ summary }}</p>
-    <h3>Visualizations:</h3>
-    <img src="{{ url_for('static', filename='images/sentiment_pie.png') }}" alt="Sentiment Pie Chart">
-{% endblock %}
+        <h2>Key Word, Emotion, and Sentiment Analysis</h2>
+        <div class="visualizations">
+            {% if visualizations.keyword_pie_chart %}
+            <img src="{{ visualizations.keyword_pie_chart }}" alt="Keyword Pie Chart">
+            {% endif %}
+            {% if visualizations.tag_occurrences %}
+            <img src="{{ visualizations.tag_occurrences }}" alt="Tag Occurrences">
+            {% endif %}
+            {% if visualizations.wordcloud %}
+            <img src="{{ visualizations.wordcloud }}" alt="Wordcloud">
+            {% endif %}
+            {% if visualizations.sentiment_chart %}
+            <img src="{{ visualizations.sentiment_chart }}" alt="Sentiment Chart">
+            {% endif %}
+            {% if visualizations.emotion_pie_chart %}
+            <img src="{{ visualizations.emotion_pie_chart }}" alt="Emotion Pie Chart">
+            {% endif %}
+        </div>        
+        {% endif %}
+    </main>
+</body>
+<footer>
+    <p>CSCI 5541: Natural Language Processing (Fall 2025)</p>
+    <p>Final Project - Rimika Dhara and Akansha Kamineni</p>
+</footer>
+</html>
