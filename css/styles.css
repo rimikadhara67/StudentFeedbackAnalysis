@@ -1,0 +1,186 @@
+/* General Styling */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #800000; /* Maroon */
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+}
+
+
+footer {
+    text-align: center;
+    background-color: #800000; /* Maroon */
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+/* Styling for the form */
+form.professor-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
+    text-align: center;
+}
+
+/* Dropdown styling */
+form.professor-form select {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    width: 100%; /* Make dropdown full-width inside the form */
+    max-width: 300px; /* Restrict the maximum width */
+}
+
+
+form.professor-form button:hover {
+    background-color: #990000; /* Slightly lighter on hover */
+}
+
+select {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #800000; /* Maroon */
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #990000; /* Slightly lighter maroon */
+}
+
+/* Styling for the insights container */
+#insights {
+    background-color: #f8f8f8; /* Light gray background for better readability */
+    border: 2px solid #990000; /* UMN gold border */
+    border-radius: 10px;
+    padding: 1rem; /* Reduced padding */
+    margin-top: 1rem; /* Reduced top margin */
+    line-height: 1.6; /* Reduced line height for compactness */
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333; /* Dark text for readability */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Headings inside the insights container */
+#insights h3 {
+    color: #7d001b; /* UMN maroon for headings */
+    font-size: 1.4rem; /* Slightly smaller heading font size */
+    margin-bottom: 0.5rem; /* Reduced bottom margin */
+    border-bottom: 2px solid #990000; /* Gold underline for emphasis */
+    padding-bottom: 0.2rem; /* Reduced padding below underline */
+}
+
+/* Paragraph styling */
+#insights p {
+    margin-bottom: 0.75rem; /* Reduced spacing between paragraphs */
+}
+
+/* Bold text styling */
+#insights strong {
+    display: block; /* Forces bold text (e.g., Strengths:) onto a new line */
+    margin-top: 0.4rem; /* Reduced space above */
+    color: #333;
+    font-weight: bold;
+}
+
+/* Styling for unordered lists */
+#insights ul {
+    list-style-type: disc; /* Default bullet points */
+    margin-left: 1.2rem; /* Reduced indent for lists */
+    margin-bottom: 0.75rem; /* Reduced bottom margin */
+}
+
+/* Styling for ordered lists */
+#insights ol {
+    list-style-type: decimal; /* Numbered list */
+    margin-left: 1.2rem; /* Reduced indent for lists */
+    margin-bottom: 0.75rem; /* Reduced bottom margin */
+}
+
+/* List item spacing */
+#insights li {
+    margin-bottom: 0.4rem; /* Reduced spacing between list items */
+}
+
+/* Nested list styling */
+#insights ul ul, #insights ol ol {
+    margin-left: 1rem; /* Additional indent for nested lists */
+    margin-top: 0.2rem; /* Reduced top margin for nested items */
+    margin-bottom: 0.2rem; /* Reduced bottom margin for nested items */
+}
+
+/* Add subtle hover effect to make insights interactive */
+#insights:hover {
+    background-color: #fff8f9; /* Light gold background on hover */
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Visualization Styling */
+/* Styling for the visualizations container */
+#visualizations {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Dynamic grid layout */
+    gap: 1.5rem; /* Space between the items */
+    padding: 1rem;
+}
+
+/* Styling for each visualization image */
+#visualizations img {
+    width: 100%; /* Make the image take up the full width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    border: 2px solid #ddd; /* Add a border for better separation */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    object-fit: contain; /* Ensure the content fits without distortion */
+}
+
+/* Adjust the container responsiveness */
+@media (min-width: 768px) {
+    #visualizations {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Increase minimum size on larger screens */
+    }
+}

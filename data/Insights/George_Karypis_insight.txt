@@ -2,6 +2,7 @@
 
 **Caveat:** The relatively low number of ratings (17) suggests these insights should be considered preliminary and may not fully represent student opinion.  Further data collection would strengthen the analysis.
 
+
 **Key Areas for Improvement:**
 
 * **Clarity and Explanation of Concepts:**  A recurring theme is difficulty understanding Professor Karypis' explanations, both in lectures and through the textbook (which he co-authored). Students perceive a gap between his knowledge and his ability to convey it effectively, particularly for those lacking prior background in the subject matter.  The lectures are described as unprepared, lacking clear main points, and feeling more like a review than an introduction to new material. This also contributes to low lecture attendance.

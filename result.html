@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights for Professor</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        // Fetch professor name from URL
+        document.addEventListener("DOMContentLoaded", function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const professorName = urlParams.get("professor_name");
+
+            if (professorName) {
+                document.getElementById("professor-name").textContent = professorName;
+
+                // Fetch and display data for the selected professor
+                const insightsPath = `data/Insights/${professorName.replaceAll(" ", "_")}_insight.txt`;
+                const visualizations = [
+                    `data/Key Word Analysis/${professorName}_pie_chart.png`,
+                    `data/Key Word Analysis/${professorName}_tag_occurrences.png`,
+                    `data/Key Word Analysis/${professorName}_wordcloud.png`,
+                    `data/Visualizations/${professorName}_Sentiment_BarChart.png`,
+                    `data/Visualizations/${professorName}_Emotion_PieChart.png`,
+                ];
+
+                // Load insights
+                fetch(insightsPath)
+                    .then((response) => response.text())
+                    .then((data) => {
+                        const formattedInsights = formatInsights(data);
+                        document.getElementById("insights").innerHTML = formattedInsights;
+                    })
+                    .catch((error) => {
+                        document.getElementById("insights").innerHTML =
+                            "<p>Insights not available for this professor.</p>";
+                    });
+
+                // Load visualizations
+                const visualizationsContainer = document.getElementById("visualizations");
+                visualizations.forEach((path) => {
+                    const img = document.createElement("img");
+                    img.src = path;
+                    img.alt = `Visualization for ${professorName}`;
+                    img.onerror = () => {
+                        img.style.display = "none"; // Hide if not found
+                    };
+                    visualizationsContainer.appendChild(img);
+                });
+            } else {
+                document.getElementById("insights").textContent =
+                    "No professor selected. Please return to the main page.";
+            }
+        });
+        function formatInsights(rawText) {
+            // Replace headings (##) with <h3>
+            rawText = rawText.replace(/## (.+)/g, "<h3>$1</h3>");
+
+            // Replace bold sections (**text**) with <strong>
+            rawText = rawText.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+
+            // Replace lists (*) with <ul><li>
+            rawText = rawText.replace(/^\* (.+)/gm, "<ul><li>$1</li></ul>");
+
+            // Replace numbered lists (1., 2., etc.) with <ol><li>
+            rawText = rawText.replace(/^\d+\.\s(.+)/gm, "<ol><li>$1</li></ol>");
+
+            // Ensure nested lists are well-formed
+            rawText = rawText.replace(/<\/ul>\s<ul>/g, ""); // Remove unnecessary <ul></ul> tags
+            rawText = rawText.replace(/<\/ol>\s<ol>/g, ""); // Remove unnecessary <ol></ol> tags
+
+            return rawText;
+        }
+
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Insights for Professor <span id="professor-name"></span></h1>
+    </header>
+    <main>
+        <h2>Insights</h2>
+        <div id="insights">Loading insights...</div>
+
+        <h2>Visualizations</h2>
+        <div id="visualizations"></div>
+    </main>
+    <footer>
+        <p>CSCI 5541: Natural Language Processing (Fall 2025)</p>
+        <p>Final Project - Rimika Dhara and Akansha Kamineni</p>
+    </footer>
+</body>
+</html>
