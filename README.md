@@ -18,6 +18,7 @@ You can also view how we did our analysis in the `codebase` folder in this githu
 We also have our written reports available in the `writeups` folder which include:
 - Project Proposal
 - Final Poster Presentation
+- Final Report
 
 ---
 
